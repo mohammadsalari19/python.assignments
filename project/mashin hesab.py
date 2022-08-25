@@ -153,6 +153,8 @@ for i in range(number_of_uses) :
           print('add moshakhs nis')
        else:
           print('add aval ast')  
+    print('shoma', counter,'az mashin hesab estefade kardid')
+    counter+=1
  elif( basic_or_advance=='2' or basic_or_advance=='advanse'):
    print('az kodam ghsmat estafade mikonid :\n1.asin\n2.acos\n3.atan\n4.log\n5.ln\n6.sinh\n7.cosh\n8.tanh')
    type_use=input()
@@ -197,5 +199,5 @@ for i in range(number_of_uses) :
      number=float(input('add ra vared konid : '))
      sum=math.tanh(number)      
      print('hasel barabar ast :',sum)   
-              
-
+   print('shoma', counter,'az mashin hesab estefade kardid')          
+   counter+=1
