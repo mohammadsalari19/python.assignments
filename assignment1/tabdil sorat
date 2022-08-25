@@ -1,0 +1,3 @@
+kilometr_sast=float(input('sorat ra br hasb mail bar saat vared konid;'))
+mail_saat=float(kilometr_saat*1.609344)
+print(mail_saat)

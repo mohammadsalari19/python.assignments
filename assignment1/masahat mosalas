@@ -1,0 +1,4 @@
+ertefae=float(input('ertfae mosalas ra vard konid;'))
+ghaede=float(input('tol ghaede mosalas ra vard konid;'))
+masahat=(ertefae*ghaede)/2
+print('masahat mosalas:',masahat)

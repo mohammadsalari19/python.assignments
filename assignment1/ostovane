@@ -1,0 +1,9 @@
+shoaee=float(input('shoaee ostovane ra vard konid;'))
+ertefae=float(input('ertfae ostovane ra vard konid;'))
+pi=3.14
+masahat_janebi=pi*shoaee*2*ertefae
+hajm=pi*shoaee*shoaee*ertefae
+masahat_kol=(2*pi*shoaee)*(ertefae+shoaee)
+print('masahat janebi ostovane barbar ast ba :',masahat_janebi)
+print('hajme ostovane barbar ast ba :',hajm)
+print('masahat kol ostovane barbar ast ba :',masahat_kol)
