@@ -27,9 +27,9 @@ elif (hour_or_second=='2' or hour_or_second=='second'):
    if time_hour<10:
        time_hour='0'+str(time_hour)
    if time_min<10:
-       time_hour='0'+str(time_min)   
+       time_min='0'+str(time_min)   
    if time_second<10:
-       time_hour='0'+str(time_second)
+       time_second='0'+str(time_second)
          
    print(time_hour,':',time_min,':',time_second,sep='')
    
